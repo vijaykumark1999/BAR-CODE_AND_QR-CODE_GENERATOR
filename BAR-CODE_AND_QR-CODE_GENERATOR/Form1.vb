@@ -82,4 +82,9 @@
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Close()
     End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Form2.Show()
+        Me.Hide()
+    End Sub
 End Class
